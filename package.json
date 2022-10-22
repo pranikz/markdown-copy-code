@@ -1,0 +1,29 @@
+{
+  "name": "markdown-it-code-copy",
+  "version": "1.0",
+  "description": "A markdown-it plugin to add a copy icon in code blocks to copy the code",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "Pranikz",
+  "license": "MIT",
+  "keywords": [
+    "markdown",
+    "markdown-it",
+    "plugin",
+    "code",
+    "copy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "clipboard": "^2.0.6",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "markdown-it": "^12.3.2"
+  }
+}
